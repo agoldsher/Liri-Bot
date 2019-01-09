@@ -12,9 +12,16 @@ There are three commands that can be used:
 2. movie-this
 3. do-what-it-says
 
+### Using LIRI for the First Time
+
+When using the program is used for the first time, it will create a log.txt file where all the data will be printed.
+
 ### Spotify This Song Command
 
 When using this command, the first input is the command "spotify-this-song" and the second input (optional) is the song title.
+
+![terminal input for spotify-this-song with song input](./screenshots/spotify-with-song.png)
+
 
 If no song is provided, it will default to "The Sign".
 

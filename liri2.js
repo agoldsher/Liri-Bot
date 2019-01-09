@@ -39,19 +39,20 @@ function spotifyThisSong(song) {
             if (err) {
                 return console.log('Error occurred: ' + err);
             }
-            fs.appendFile('log.txt',
-                `
+            for (let i = 0; i < 10; i++) {
+                fs.appendFile('log.txt',
+                    `
 ------------SONG------------
-Artist: ${data.tracks.items[0].artists.map(artistName)}
-Song: ${data.tracks.items[0].name}
-Preview Link: ${data.tracks.items[0].preview_url}
-Album: ${data.tracks.items[0].album.name}`,
-                (err) => {
-                    if (err) return console.log(err);
-
-                    console.log("The song information was added to your log.")
-                })
+Artist: ${data.tracks.items[i].artists.map(artistName)}
+Song: ${data.tracks.items[i].name}
+Preview Link: ${data.tracks.items[i].preview_url}
+Album: ${data.tracks.items[i].album.name}`,
+                    (err) => {
+                        if (err) return console.log(err);
+                    })
+            }
         });
+    console.log("The song information was added to your log.")
 }
 
 function movieThis(movie) {
