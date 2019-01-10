@@ -22,10 +22,17 @@ When using this command, the first input is the command "spotify-this-song" and 
 
 ![terminal input for spotify-this-song with song input](./screenshots/spotify-with-song.png)
 
+The returned log.txt file will look like this:
+
+![log output for spotify-this-song with song input](./screenshots/spotify-with-song-log.png)
 
 If no song is provided, it will default to "The Sign".
 
-The information about the songs will be returned in the log.txt file.
+![terminal input for spotify-this-song without song input](./screenshots/spotify-this-song.png)
+
+The returned log.txt file will look like this:
+
+![log output for spotify-this-song with song input](./screenshots/spotity-this-song_without_song_log.png)
 
 ### Movie This Command
 
