@@ -32,7 +32,7 @@ If no song is provided, it will default to "The Sign".
 
 ![terminal input for spotify-this-song without song input](./screenshots/spotify-this-song.png)
 
-The returned log.txt file will have the same output style, just with a differnt song:
+The returned log.txt file will have the same output style, just with a different song:
 
 ![log output for spotify-this-song without song input](./screenshots/spotity-this-song_without_song_log.png)
 
@@ -50,7 +50,7 @@ If no movie is provided, it will default to "Mr. Nobody".
 
 ![terminal input for movie-this without movie input](./screenshots/movie-without-movie.png)
 
-The returned log.txt file will have the same output style, just with a differnt song:
+The returned log.txt file will have the same output style, just with a different movie:
 
 ![log output for movie-this without movie input](./screenshots/movie-without-movie-log.png)
 
